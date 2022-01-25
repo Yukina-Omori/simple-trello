@@ -33,14 +33,14 @@ header {
   width: 250px;
   padding: 30px 25px;
   margin: 10px 1%;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
 }
 
 .taskCardTitleArea {
   cursor: pointer;
   color: #555;
-  width:30%;
+  width:100%;
 }
 .taskCardTitleInput {
   padding: 5px 10px;
