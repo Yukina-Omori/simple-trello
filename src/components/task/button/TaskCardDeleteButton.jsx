@@ -15,7 +15,7 @@ export const TaskCardDeleteButton = ({
         className="taskCardDeleteButton"
         onClick={() => taskCardDeleteButton(taskCard.id)}
       >
-        ☓
+      <i className="fas fa-times"></i>
       </button>
     </div>
   );

@@ -11,7 +11,7 @@ export const Task = ({ task, taskList, setTaskList, index }) => {
         <div className="taskBox" key={task.id} ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>  
           <p className="taskText">{task.text}</p>
           <button className="trashButton" onClick={() => handleDelete(task.id)}>
-            close
+          <i className="fas fa-trash-alt"></i>
           </button>
         </div>
       )}

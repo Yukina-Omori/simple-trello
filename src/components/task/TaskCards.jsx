@@ -19,7 +19,7 @@ export const TaskCards = () => {
     <DragDropContext onDragEnd={handleDragEnd}> 
       <Droppable droppableId="droppable" direction="horizontal">
         {(provided) => (
-    <div className="taskCardArea" {...provided.droppableProprs} ref={provided.innerRef}>
+    <div className="taskCardArea" {...provided.droppableProps} ref={provided.innerRef}>
       {taskCardsList.map((taskCard, index) => (
         <TaskCard key={taskCard.id} index={index} taskCardsList={taskCardsList} 
         setTaskCardsList={setTaskCardsList} taskCard={taskCard} />

@@ -16,7 +16,7 @@ export const AddTaskCardButton = ({ taskCardsList, setTaskCardsList }) => {
   return (
     <div className="addTaskCardButtonArea">
       <button className="addTaskCardButton" onClick={addTaskCard}>
-        +
+      <i className="fas fa-plus"></i>
       </button>
     </div>
   );
